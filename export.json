@@ -20,7 +20,7 @@
     {
       "kind": "styling",
       "tag": "com-y-sap-sac-export-aps",
-      "url": "http://localhost/SAC/sacexport/export_aps.js",
+      "url": "http://https://yousrataghouti.github.io/EXPORT/export_aps.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
@@ -29,7 +29,7 @@
     "serverURL": {
       "type": "string",
       "description": "The URL to the open bi Repository installation that handles the export. If you use an installation on your local machine, change this property to http://localhost:9091, otherwise to the address and port of your installation.",
-      "default": "http://localhost:3000/export"
+      "default": "https://172.25.135.160/RUBIS_KERING/inbox"
     },
     "filename": {
       "type": "string",
