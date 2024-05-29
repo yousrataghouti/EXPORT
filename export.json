@@ -34,7 +34,7 @@
     "filename": {
       "type": "string",
       "description": "The file name of the export document. The extension will be determined automatically. You can use placeholders (manual section 3.9).",
-      "default": "export.html"
+      "default": "export.csv"
     },
     "showIcons": {
       "type": "boolean",
@@ -134,7 +134,7 @@
         {
           "name": "format",
           "type": "string",
-          "description": "The export format: \"HTML\""
+          "description": "The export format: \"CSV\""
         }
       ]
     }
