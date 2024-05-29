@@ -398,9 +398,9 @@
         doExport(format, overrideSettings) {
             let settings = JSON.parse(JSON.stringify(this._export_settings));
 
-          //  setTimeout(() => {
-             //   this._doExport(format, settings, overrideSettings);
-           // }, 200);
+            setTimeout(() => {
+               this._doExport(format, settings, overrideSettings);
+            }, 200);
         }
 
         _doExport(format, settings, overrideSettings) {
@@ -428,8 +428,8 @@
                 if (sap.fpa.ui.infra.common) {
                     let context = sap.fpa.ui.infra.common.getContext();
 
-                   // let app = context.getAppArgument();
-                   // settings.appid = app.appId;
+                    let app = sap.fpa.ui.infra.common.getApp();
+                    settings.appid = app.appId;
 
                     let user = context.getUser();
                     settings.sac_user = user.getUsername();
