@@ -428,7 +428,7 @@
                 if (sap.fpa.ui.infra.common) {
                     let context = sap.fpa.ui.infra.common.getContext();
 
-                    let app = sap.fpa.ui.infra.common.getApp();
+                    let app = context.getApp();
                     settings.appid = app.appId;
 
                     let user = context.getUser();
