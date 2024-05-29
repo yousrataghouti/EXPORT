@@ -147,5 +147,5 @@
             }
         }
     }
-    customElements.define("com-fd-djaja-sap-sac-export-aps", ExportAps);
+    customElements.define("com-y-sap-sac-export-aps", ExportAps);
 })();
